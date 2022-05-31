@@ -100,11 +100,11 @@ rollBtn.addEventListener('click', function() {
             // display that current score to the active player's HTML element
             document.querySelector(`#current--${activePlayer}`).textContent = currentScore;
     
-    }   else {
+        } else {
 
             switchPlayer();
 
-    }
+        }
 
     }
 
