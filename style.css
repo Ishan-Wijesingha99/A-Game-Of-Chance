@@ -14,7 +14,6 @@ html {
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  height: 100vh;
   color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   display: flex;
@@ -170,3 +169,36 @@ main {
   display: none
 }
 
+/* rules at the bottom of the page */
+.entire-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  min-height: 120vh;
+}
+
+.rules-container {
+  margin-top: 4rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  padding: 6rem;
+  width: 100rem;
+}
+
+.rules-title {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+.rules-text {
+  font-size: 2rem;
+}
