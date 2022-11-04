@@ -8,7 +8,18 @@
     <title>Pig Game</title>
   </head>
   <body>
-    <div class="entire-flex-container">
+    <div
+    class="entire-flex-container"
+    style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    min-height: 120vh;
+    "
+    >
+
       <main>
         <section class="player player--0 player--active">
           <h2 class="name" id="name--0">Player 1</h2>
@@ -34,20 +45,57 @@
 
       </main>
 
-      <div class="rules-container">
-        <h1 class="rules-title">RULES</h1>
+      <div
+      class="rules-container"
+      style="
+      margin-top: 4rem;
+      background-color: rgba(255, 255, 255, 0.35);
+      backdrop-filter: blur(200px);
+      filter: blur();
+      box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+      border-radius: 9px;
+      padding: 6rem;
+      width: 100rem;
+      "
+      >
+        <h1
+        class="rules-title"
+        style="
+        text-align: center;
+        font-size: 4rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-family: 'Nunito', sans-serif;
+        "
+        >RULES</h1>
 
-        <p class="rules-text">This game is played with two players on a single tab, but you can just play against yourself. Here are the rules.</p>
+        <p
+        class="rules-text"
+        style="font-size: 2rem;"
+        >This game is played with two players on a single tab, but you can just play against yourself. Here are the rules.</p>
         <br />
         <br />
         <br />
-        <p class="rules-text"><b>1.</b> A dice is rolled and that number is added to your turn's score, you can decide to roll again or end your turn.</p>
+        <p
+        class="rules-text"
+        style="font-size: 2rem;"
+        ><b>1.</b> A dice is rolled and that number is added to your turn's score, you can decide to roll again or end your turn.</p>
         <br />
-        <p class="rules-text"><b>2.</b> If you end your turn, the points you mustered this turn is added to your total score, and it becomes the other player's turn.</p>
+        <p
+        class="rules-text"
+        style="font-size: 2rem;"
+        ><b>2.</b> If you end your turn, the points you mustered this turn is added to your total score, and it becomes the other player's turn.</p>
         <br />
-        <p class="rules-text"><b>3.</b> You can keep rolling the dice instead of ending your turn, this will allow you to add more points to your turn's score, but if you roll a one, you will lose all your turn's points and your turn will end.</p>
+        <p
+        class="rules-text"
+        style="font-size: 2rem;"
+        ><b>3.</b> You can keep rolling the dice instead of ending your turn, this will allow you to add more points to your turn's score, but if you roll a one, you will lose all your turn's points and your turn will end.</p>
         <br />
-        <p class="rules-text"><b>4.</b> The first player to 100 points wins!</p>
+        <p
+        class="rules-text"
+        style="font-size: 2rem;"
+        ><b>4.</b> The first player to 100 points wins!</p>
       </div>
     </div>  
     <script src="script.js"></script>

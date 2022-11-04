@@ -170,7 +170,7 @@ main {
 }
 
 /* rules at the bottom of the page */
-.entire-flex-container {
+/* .entire-flex-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -201,4 +201,4 @@ main {
 
 .rules-text {
   font-size: 2rem;
-}
+} */
